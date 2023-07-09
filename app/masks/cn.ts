@@ -1,6 +1,7 @@
 import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
+
   {
     avatar: "1f5bc-fe0f",
     name: "亚运创图",
@@ -153,6 +154,36 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f5bc-1234",
+    name: "小作家",
+    context: [
+      {
+        role: "system",
+        content:
+            "你是一个有用的助手，可以用来",
+        date: "",
+      },
+      { role: "user", content: "你可以输入文字或者图片，接下来就可以获得你想要的图片", date: "" },
+      {
+        role: "system",
+        content:
+            "",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 32,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f5bc-1234",
     name: "伴学助手",
     context: [
       {
@@ -184,6 +215,36 @@ export const CN_MASKS: BuiltinMask[] = [
   {
     avatar: "1f5bc-1234",
     name: "创意工厂",
+    context: [
+      {
+        role: "system",
+        content:
+            "你是一个有用的助手，可以用来",
+        date: "",
+      },
+      { role: "user", content: "你可以输入文字或者图片，接下来就可以获得你想要的图片", date: "" },
+      {
+        role: "system",
+        content:
+            "",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 32,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f5bc-1234",
+    name: "故事大王",
     context: [
       {
         role: "system",
@@ -334,6 +395,96 @@ export const CN_MASKS: BuiltinMask[] = [
   {
     avatar: "1f5bc-1234",
     name: "算法助手",
+    context: [
+      {
+        role: "system",
+        content:
+            "你是一个有用的助手，可以用来",
+        date: "",
+      },
+      { role: "user", content: "你可以输入文字或者图片，接下来就可以获得你想要的图片", date: "" },
+      {
+        role: "system",
+        content:
+            "",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 32,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f5bc-1234",
+    name: "提示词助手",
+    context: [
+      {
+        role: "system",
+        content:
+            "你是一个有用的助手，可以用来",
+        date: "",
+      },
+      { role: "user", content: "你可以输入文字或者图片，接下来就可以获得你想要的图片", date: "" },
+      {
+        role: "system",
+        content:
+            "",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 32,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f5bc-1234",
+    name: "数学老师",
+    context: [
+      {
+        role: "system",
+        content:
+            "你是一个有用的助手，可以用来",
+        date: "",
+      },
+      { role: "user", content: "你可以输入文字或者图片，接下来就可以获得你想要的图片", date: "" },
+      {
+        role: "system",
+        content:
+            "",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 32,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f5bc-1234",
+    name: "教研助手",
     context: [
       {
         role: "system",
