@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
-import ChatGptIcon from "../icons/chatgpt.svg";
+import ChatGptIcon from "../icons/琢小玉.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/mask.svg";
@@ -119,9 +119,9 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT-Midjourney</div>
+        <div className={styles["sidebar-title"]}>匠心兔智能学习平台</div>
         <div className={styles["sidebar-sub-title"]}>
-          Your own AI assistant.
+          陪智能小兔一起学习ing…….
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
